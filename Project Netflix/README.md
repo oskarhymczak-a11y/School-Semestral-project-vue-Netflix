@@ -1,5 +1,7 @@
 # Project Netflix
 
+PROJEKT NAPISANY W TS JAK COS TO SA BLEDY ALE NIC W WIEKSZOSCI NIE ROBIA!!!!
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

@@ -9,14 +9,19 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue'),
-    },
+
+    // mozliwe ze ja zajme sie routingiem wiec chill jak cos to mozecie sprawdzic na stronie jak wyglada wasza podstrona -- Oskar
+    // jak kliknicie to V na dole strony i tam trzecie od gory jest routes i mozecie tam zmienic swoja strone na ta co teraz robicie zeby zobaczyc wyglad 
+
+
+    //Tutaj jak cos dodajecie routes (tez tu se cos pododwam wiec jak cos to no nie usuwajcie tego komentarza zeby kazdy wiedzial lol)
+    //przyklad dodania route'a:
+    // {
+    //   path: '/example',
+    //   name: 'example',
+    //   component: ExampleView,
+    // }
+    //I tyle 
   ],
 })
 
