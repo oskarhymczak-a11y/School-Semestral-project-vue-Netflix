@@ -1,6 +1,6 @@
 # Project Netflix
 
-PROJEKT NAPISANY W TS JAK COS TO SA BLEDY ALE NIC W WIEKSZOSCI NIE ROBIA!!!!
+This project is written in **TypeScript**. You might encounter some type-checking warnings/errors in the console; however, they do not affect the core functionality of the application.
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -30,6 +30,9 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 ```sh
 npm install
 ```
+
+### CSS Framework
+This project uses **Bootstrap 5** for styling. It is included via npm and imported in `src/main.ts` (or `src/assets/main.css`).
 
 ### Compile and Hot-Reload for Development
 
